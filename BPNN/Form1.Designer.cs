@@ -41,7 +41,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(32, 205);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 30);
             this.button1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(219, 205);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(129, 30);
             this.button2.TabIndex = 1;
@@ -63,7 +63,7 @@
             // InputA
             // 
             this.InputA.Location = new System.Drawing.Point(32, 122);
-            this.InputA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InputA.Margin = new System.Windows.Forms.Padding(2);
             this.InputA.Name = "InputA";
             this.InputA.Size = new System.Drawing.Size(76, 20);
             this.InputA.TabIndex = 2;
@@ -71,7 +71,7 @@
             // InputB
             // 
             this.InputB.Location = new System.Drawing.Point(112, 122);
-            this.InputB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InputB.Margin = new System.Windows.Forms.Padding(2);
             this.InputB.Name = "InputB";
             this.InputB.Size = new System.Drawing.Size(76, 20);
             this.InputB.TabIndex = 3;
@@ -79,7 +79,7 @@
             // Output
             // 
             this.Output.Location = new System.Drawing.Point(372, 122);
-            this.Output.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Output.Margin = new System.Windows.Forms.Padding(2);
             this.Output.Name = "Output";
             this.Output.Size = new System.Drawing.Size(188, 20);
             this.Output.TabIndex = 0;
@@ -87,7 +87,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(409, 205);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(139, 30);
             this.button3.TabIndex = 4;
@@ -98,7 +98,7 @@
             // InputC
             // 
             this.InputC.Location = new System.Drawing.Point(192, 122);
-            this.InputC.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InputC.Margin = new System.Windows.Forms.Padding(2);
             this.InputC.Name = "InputC";
             this.InputC.Size = new System.Drawing.Size(76, 20);
             this.InputC.TabIndex = 5;
@@ -106,7 +106,7 @@
             // InputD
             // 
             this.InputD.Location = new System.Drawing.Point(272, 122);
-            this.InputD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.InputD.Margin = new System.Windows.Forms.Padding(2);
             this.InputD.Name = "InputD";
             this.InputD.Size = new System.Drawing.Size(76, 20);
             this.InputD.TabIndex = 6;
@@ -125,9 +125,9 @@
             this.Controls.Add(this.InputA);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Text = "Backpropagation NN";
+            this.Text = "Backpropagation";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
